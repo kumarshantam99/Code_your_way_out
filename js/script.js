@@ -113,6 +113,6 @@ if ( $('.modal' ).hasClass('show' ) ) {
   
   $(document).ready(function(){
     $('#test1').click(function(){
-       $('#test1').modal('show');    
+       $('#test11').modal('show');    
     });
     });
