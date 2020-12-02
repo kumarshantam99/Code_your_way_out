@@ -4557,7 +4557,38 @@ main.lght .ep-icon:after {
 
 /* ============== My responsive fixes.. =============== */
 
+.ui.container{
+	margin-top: 50px;
+	background-color: #032540;
+	padding-top: 10px;padding-bottom: 10px;
+}.ui .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .ui .special .cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+
+  .ui .special.cards>card{
+    flex:33.333333333%;
+    padding-left: 0%;
+  }
+  .ui.centered.card{
+	  margin-top: 10%;
+	  margin-bottom: 10%;
+  }
+.ui.card>.extra.content{
+	
+	color: #cbd2d7;
+}
 @media only screen and (max-width: 600px) {
 	body{
 		

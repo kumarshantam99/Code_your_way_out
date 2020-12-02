@@ -107,4 +107,12 @@ if ( $('.modal' ).hasClass('show' ) ) {
  $('overlay').addClass('active')
 
   }
+  $('.special.cards .image').dimmer({
+    on: 'hover'
+  });
   
+  $(document).ready(function(){
+    $('#test1').click(function(){
+       $('#test1').modal('show');    
+    });
+    });
